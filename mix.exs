@@ -45,7 +45,7 @@ defmodule Html5ever.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:rustler, "~> 0.9"},
+    [{:rustler, git: "https://github.com/bismark/rustler.git", branch: "otp20"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
